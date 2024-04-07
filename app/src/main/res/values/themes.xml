@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/back_splash</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/icono</item>
+        <item name="postSplashScreenTheme">@style/Theme.MemoryGame</item>
+    </style>
+
+    <style name="Theme.MemoryGame" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
